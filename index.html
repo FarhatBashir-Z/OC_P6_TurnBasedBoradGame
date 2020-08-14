@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.ico">
+	<title>Game</title>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.11.0/css/mdb.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+
+	<div class="container ">
+		<div id="success">
+
+		</div>
+		<div class="row">
+			<div class="col-3 pt-5 text-center">
+				<!-- Card -->
+				<div class="card">
+
+					<!-- Card image -->
+					<div class="view overlay">
+						<img class="card-img-top" src="images/captain_america.png"
+                        alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                  </div>
+                  <!-- Card content -->
+                  <div class="card-body">
+                      <!-- Title -->
+                      <center><h4 class="card-title text-left text-center" id = "nameP1">Captin America</h4></center>
+                      <div class="text-left" id = "p1-Status"></div>
+											<!-- Text -->
+                      <p id = "textP1" class="card-text text-left">Captin America ready to fight.</p>
+                      <!-- Button -->
+                      <div id = "p1btn">
+                        <a href="#" id = "p1f" onclick="attack()" class="btn btn-primary peach-gradient">Attack</a>
+                        <a href="#" id = "p1d" onclick="defend()" class="btn btn-primary peach-gradient">Defend</a>
+                      </div>
+                      <p id = "textP11" class="card-text text-center pt-2"></p>
+
+                  </div>
+                 </div>
+                <!-- Card -->
+                
+
+            </div>
+            <div class="col-6 text-center">
+               <!----> <h3 class="text-center pt-2"><b>Turn Based Board Game</b></h3>
+                <div class="grid-container mx-auto">
+
+                </div>
+            </div>
+            <div class="col-3 pt-5 text-center">
+              <!-- Card -->
+                <div class="card">
+                  <!-- Card image -->
+                  <div class="view overlay">
+                      <img class="card-img-top" src="images/Superman.png"
+                        alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                  </div>
+                  <!-- Card content -->
+                  <div class="card-body">
+                      <!-- Title -->
+                      <center><h4 class="card-titl text-left text-center" id = "nameP2"> Super man</h4></center>
+                      <div class="text-left" id = "p2-Status"></div>
+											<!-- Text -->
+                      <p id = "textP2" class="card-text text-left">Superman ready to fight</p>
+                      <!-- Button -->
+                      <div id = "p2btn">
+                        <a href="#" id = "p2f" onclick="attack()" class="btn btn-primary aqua-gradient">Attack</a>
+                        <a href="#" id = "p2d" onclick="defend()" class="btn btn-primary aqua-gradient">Defend</a>
+                      </div>
+                      <p id = "textP21" class="card-text text-center pt-2"></p>
+
+                  </div>
+                 </div>
+              <!-- Card -->
+              
+            </div>
+        </div>
+      </div>
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.11.0/js/mdb.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
